@@ -13,8 +13,6 @@ Task("Build-Android")
     .IsDependentOn("Clean-Artifacts")
     .Does(() =>
 {
-    // FilePath unityEditorPath = new FilePath("D:\\All_Programs\\Unity\\Editor\\2022.3.10f1\\Editor\\Unity.exe");
-
     UnityEditor(
         2022, 3,
         new UnityEditorArguments
